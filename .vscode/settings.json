@@ -1,0 +1,30 @@
+{
+  // Enable format on save
+  "editor.formatOnSave": true,
+
+  // Use Prettier as the default formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Optional: format on paste & type
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": false,
+
+  // Disable built-in VS Code formatter conflicts
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // If ESLint is installed, let it auto-fix problems on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }
+}
